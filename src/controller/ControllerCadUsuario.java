@@ -96,7 +96,7 @@ public final class ControllerCadUsuario extends ControllerBaseTela {
     }
     
     private void deletUsuario() {
-        
+        Usuario.deletUsuario(this.oUsuario.getId());
     }
     
     private void loadDataScreen() {
